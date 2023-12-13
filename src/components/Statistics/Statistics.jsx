@@ -1,4 +1,4 @@
-import { StatisticsList, StatisticsTitle } from './Statistics.styled';
+import { StatisticsList } from './Statistics.styled';
 
 export const Statistics = ({
   good,
@@ -9,7 +9,6 @@ export const Statistics = ({
 }) => {
   return (
     <div>
-      <StatisticsTitle>Statistics</StatisticsTitle>
       {total > 0 && (
         <StatisticsList>
           <li>

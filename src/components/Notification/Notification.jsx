@@ -1,3 +1,3 @@
-export const Notification = ({ message, total }) => {
-  return total <= 0 && <p>{message}</p>;
+export const Notification = ({ message }) => {
+  return <p>{message}</p>;
 };

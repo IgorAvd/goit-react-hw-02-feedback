@@ -12,7 +12,3 @@ export const StatisticsList = styled.ul`
     font-weight: bold;
   }
 `;
-
-export const StatisticsTitle = styled.h2`
-  margin-bottom: 20px;
-`;
